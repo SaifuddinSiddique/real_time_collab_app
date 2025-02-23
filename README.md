@@ -1,24 +1,34 @@
-# README
+# Real-Time Collaborative Document Editor
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a **real-time collaborative document editing** application built with **Ruby on Rails 7**. The goal is to allow multiple users to edit documents in real-time.
 
-Things you may want to cover:
+## 🚀 Current Progress
 
-* Ruby version
+✅ Initialized a Rails 7 project  
+✅ Set up PostgreSQL as the database  
+🔄 Next Steps: Implement authentication with Devise
 
-* System dependencies
+## 🛠️ Tech Stack
 
-* Configuration
+- **Backend:** Ruby on Rails 7, PostgreSQL
+- **Containerization:** Docker (to be added)
+- **Frontend:** React (planned)
 
-* Database creation
+## 🔧 Setup Instructions
 
-* Database initialization
+### 1️⃣ Clone the Repository
 
-* How to run the test suite
+git clone https://github.com/SaifuddinSiddique/real_time_collab_app.git
+cd real_time_collab_app
 
-* Services (job queues, cache servers, search engines, etc.)
+### Install Dependencies
 
-* Deployment instructions
+bundle install
 
-* ...
+### Set Up the Database
+
+rails db:create db:migrate
+
+### Start the Server
+
+rails s
